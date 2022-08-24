@@ -1,17 +1,16 @@
+thickness = 12;
+width = 16;
+height = 138;
+
 difference() {
-    cube([24, 16, 10], false);
-    translate([12, 8, 1]) cylinder(12, 4, 4, false);
+    cube([thickness, width, height], false);
+    translate([(thickness / 2), (width / 2), 130]) cylinder(thickness, (thickness / 3), (thickness / 3), false);
 }
 
-translate([0, -12, 28])
-    cube(
-        [24, 12, 18],
-        false
-    );
+smBranchWidth = 24;
+
+translate([0, (smBranchWidth * -1), 28])
+    cube([thickness, smBranchWidth, 18], false);
 
 translate([0, 16, 0])
-    cube(
-        [24, 55, 12],
-        false
-    );
-    
+    cube([thickness, 55, 12], false);

@@ -1,8 +1,10 @@
-cube(
-    [24, 16, 60],
-    false
-);
+thickness = 12;
+width = 16;
+height = 60;
 
-translate([12, 8, 60])
-    cylinder(8, 4, 4, false);
+cube([thickness, width, height], false);
+
+
+translate([(thickness / 2), (width / 2), height])
+    cylinder((thickness / 2), (thickness / 3), (thickness / 3), false);
 
