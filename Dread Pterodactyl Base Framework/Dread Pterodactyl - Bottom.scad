@@ -1,13 +1,7 @@
 difference() {
-    cube(
-        [24, 16, 138],
-        false
-    );
-    translate([12, 8, 138])
-        cylinder(8, 4, 4, false);
-
+    cube([24, 16, 10], false);
+    translate([12, 8, 1]) cylinder(12, 4, 4, false);
 }
-
 
 translate([0, -12, 28])
     cube(
