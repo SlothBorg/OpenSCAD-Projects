@@ -1,5 +1,5 @@
-inner_radius = 1;
-outer_radius = 3;
+inner_radius = 2;
+outer_radius = 6;
 height = 3;
 
 difference() {
