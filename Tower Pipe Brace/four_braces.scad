@@ -1,10 +1,10 @@
-main_hole_outer_radius = 25;
-main_hole_inner_radius = 20;
-main_hole_height = 30;
+main_hole_outer_radius = 68;
+main_hole_inner_radius = 60;
+main_hole_height = 80;
 
-side_holes_outer_radius = 12;
-side_holes_inner_radius = 10;
-side_holes_height = 80;
+side_holes_outer_radius = 22;
+side_holes_inner_radius = 16;
+side_holes_height = 240;
 
 module mainBody() {
     cylinder(
