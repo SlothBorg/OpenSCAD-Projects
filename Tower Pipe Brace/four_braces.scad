@@ -1,9 +1,9 @@
 main_hole_outer_radius = 34;
-main_hole_inner_radius = 30;
+main_hole_inner_radius = 31;
 main_hole_height = 40;
 
 side_holes_outer_radius = 11;
-side_holes_inner_radius = 8;
+side_holes_inner_radius = 8.5;
 side_holes_height = 120;
 
 module mainBody() {
