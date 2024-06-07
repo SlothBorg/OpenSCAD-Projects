@@ -6,9 +6,8 @@ outer_x = 78;
 outer_y = 78;
 outer_z = 6;
 
-hole_r = 4;
-hole_z = 4.5;
-hole_z = 7;
+hole_r = 2;
+hole_z = 5;
 $fn=50;
 
 edge_inset = 2.5;
@@ -27,21 +26,21 @@ difference() {
     
     translate([hole_x, hole_y, -1.5])
     {
-        cylinder(hole_z, inner_r, false);
+        cylinder(hole_z, hole_r, false);
     }
 
     translate([neg_hole_x, hole_y, -1.5])
     {
-        cylinder(hole_z, inner_r, false);
+        cylinder(hole_z, hole_r, false);
     }
 
     translate([hole_x, neg_hole_y, -1.5])
     {
-        cylinder(hole_z, inner_r, false);
+        cylinder(hole_z, hole_r, false);
     }
 
     translate([neg_hole_x, neg_hole_y, -1.5])
     {
-        cylinder(hole_z, inner_r, false);
+        cylinder(hole_z, hole_r, false);
     }
 }
