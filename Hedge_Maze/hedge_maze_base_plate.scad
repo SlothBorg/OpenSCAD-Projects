@@ -6,12 +6,12 @@ outer_x = 78;
 outer_y = 78;
 outer_z = 6;
 
-hole_r = 3.5;
+hole_r = 4;
 hole_z = 4.5;
 hole_z = 7;
 $fn=50;
 
-edge_inset = 2;
+edge_inset = 2.5;
 
 hole_x = ((outer_x - edge_inset) / 2);
 neg_hole_x = (((outer_x - edge_inset) / 2) * -1);
