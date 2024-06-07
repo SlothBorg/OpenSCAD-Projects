@@ -10,7 +10,7 @@ hole_r = 2;
 hole_z = 5;
 $fn=50;
 
-edge_inset = 2.5;
+edge_inset = 4;
 
 hole_x = ((outer_x - edge_inset) / 2);
 neg_hole_x = (((outer_x - edge_inset) / 2) * -1);
@@ -24,21 +24,49 @@ difference() {
         cube([inset_x, inset_y, inset_z], center = true);
     }
     
+    /* Top right */
     translate([hole_x, hole_y, -1.5])
     {
         cylinder(hole_z, hole_r, false);
     }
+    
+    /* Top Mid */
+    translate([0, hole_y, -1.5])
+    {
+        cylinder(outer_x, hole_r, false);
+    }
 
+    /* Top Left */
     translate([neg_hole_x, hole_y, -1.5])
     {
         cylinder(hole_z, hole_r, false);
     }
 
+    /* Mid Right */
+    translate([hole_x, 0, -1.5])
+    {
+        cylinder(hole_z, hole_r, false);
+    }   
+    
+    /* Mid Left */
+    translate([neg_hole_x, 0, -1.5])
+    {
+        cylinder(hole_z, hole_r, false);
+    }
+    
+    /* Bottom Right */
     translate([hole_x, neg_hole_y, -1.5])
     {
         cylinder(hole_z, hole_r, false);
     }
+    
+    /* Bottom Mid */
+    translate([0, neg_hole_y, -1.5])
+    {
+        cylinder(outer_x, hole_r, false);
+    }
 
+    /* Bottom Left */
     translate([neg_hole_x, neg_hole_y, -1.5])
     {
         cylinder(hole_z, hole_r, false);
