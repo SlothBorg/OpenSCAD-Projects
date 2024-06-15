@@ -2,8 +2,8 @@ inset_x = 80;
 inset_y = 78;
 inset_z = 2.5;
 
-outer_x = 78;
-outer_y = 78;
+outer_x = 77;
+outer_y = 79;
 outer_z = 6;
 
 hole_r = 2.5;
