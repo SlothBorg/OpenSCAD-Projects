@@ -19,7 +19,7 @@ neg_hole_y = (((outer_y - edge_inset) / 2) * -1 );
 
 difference() {
     cube([outer_x, outer_y, outer_z], center = true);
-    translate([-2, -2, 3.5])
+    translate([-1, -1, 3.5])
     {
         cube([inset_x, inset_y, inset_z], center = true);
     }
