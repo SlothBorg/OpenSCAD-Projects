@@ -2,8 +2,8 @@ inset_x = 78;
 inset_y = 78;
 inset_z = 2.5;
 
-outer_x = 78;
-outer_y = 78;
+outer_x = 77.5;
+outer_y = 77.5;
 outer_z = 6;
 
 hole_r = 2.5;
@@ -15,7 +15,7 @@ edge_inset = 6;
 hole_x = ((outer_x - edge_inset) / 2);
 neg_hole_x = (((outer_x - edge_inset) / 2) * -1);
 hole_y = ((outer_y - edge_inset) / 2);
-neg_hole_y = (((outer_y - edge_inset) / 2) * -1 );
+neg_hole_y = (((outer_y - edge_inset) / 2) * -1);
 
 difference() {
     cube([outer_x, outer_y, outer_z], center = true);
