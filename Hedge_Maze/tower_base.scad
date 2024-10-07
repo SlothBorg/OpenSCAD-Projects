@@ -6,13 +6,18 @@ outer_x = 128;
 outer_y = 128;
 outer_z = 5;
 
-hole_r = 3.1;
-hole_depth = 2.2;
+hole_r = 3.3;
+hole_depth = 3;
 hole_z = (outer_z / 2) + hole_depth;
 $fn=50;
 
 difference() {
     cube([outer_x, outer_y, outer_z], center = true);
+
+    translate([0, -1, 3.5])
+    {
+        cube([inset_x, inset_y, inset_z], center = true);
+    }
 
     
     /* Top left */
