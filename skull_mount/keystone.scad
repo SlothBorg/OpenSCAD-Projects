@@ -15,16 +15,6 @@ Points = [
     [(-1 * (Top / 2)), 0, Depth],
 ];
 
-showPoints(Points);
- 
-module showPoints(v) {
-    for (i = [0: len(v)-1]) {
-        translate(v[i]) color("red") 
-        text(str(i), font = "Courier New", size=1.5);
-         
-    }
-}
-
 Faces = [
     [1, 2, 5, 6],
     [2, 3, 4, 5],
