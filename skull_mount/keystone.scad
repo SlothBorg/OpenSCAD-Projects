@@ -1,7 +1,7 @@
-Height = 92.5;
-Top = 85;
-Bottom = 45;
-Depth = 17.5;
+Height = 235;
+Top = 216;
+Bottom = 116;
+Depth = 40;
 
 Points = [
  // [x, y, z] 
