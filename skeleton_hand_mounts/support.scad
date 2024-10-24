@@ -2,7 +2,7 @@ support_r1 = 50;
 support_r2 = 25;
 support_h = 127;
 
-hole_r = (15.5 / 2);
+hole_r = 8;
 hole_depth = 70;
 
 difference() {
