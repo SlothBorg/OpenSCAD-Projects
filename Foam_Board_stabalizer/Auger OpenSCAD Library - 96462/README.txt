@@ -1,0 +1,1 @@
+Auger OpenSCAD Library by wtgibson on Thingiverse: https://www.thingiverse.com/thing:96462

@@ -17,11 +17,12 @@ bottom_support_height = bottom_support_c;
 bottom_support_angle = 90 - acos(bottom_support_b / bottom_support_c);
 echo(bottom_support_height);
 
-// CYLANDER ROUNDNESS
+
 spike_height = 20;
 spike_bottom_r = 3;
 spike_top_r = .02;
 
+// CYLANDER ROUNDNESS
 $fn = 100;
 
 // MATH FOR SPIKE PLACEMENT
