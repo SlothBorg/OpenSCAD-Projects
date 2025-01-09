@@ -1,10 +1,10 @@
-cleat_x = 57;
-cleat_y = 20;
-cleat_z = 16;
+cleat_x = 55;
+cleat_y = 17;
+cleat_z = 14;
 
-hook_x = 57;
-hook_y = 12;
-hook_z = 10;
+hook_x = 55;
+hook_y = 11;
+hook_z = 7;
 
 
 screw_head_r = 8.5 / 2;
@@ -32,11 +32,11 @@ difference() {
     }
 
 
-    translate([10, 15, 0]) {
+    translate([10, 10, 0]) {
         screw(screw_length, screw_head_length, screwn_shaft_r, screw_head_r);
     }
 
-    translate([(cleat_x - 10), 15, 0]) {
+    translate([(cleat_x - 10), 10, 0]) {
         screw(screw_length, screw_head_length, screwn_shaft_r, screw_head_r);
     }
 }

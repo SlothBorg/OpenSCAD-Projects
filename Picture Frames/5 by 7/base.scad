@@ -1,7 +1,7 @@
 inch = 25.4;
 
-picture_x = 5 * inch;
-picture_y = 7 * inch;
+picture_x = 5.05 * inch;
+picture_y = 7.05 * inch;
 picture_z = 3;
 
 wall_thickness = .2 * inch;
