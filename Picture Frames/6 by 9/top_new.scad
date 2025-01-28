@@ -12,23 +12,22 @@ frame_z = 8;
 
 overhang = (1/8 * inch);
 
-echo(overhang);
-
 outside_x = frame_x + (overhang * 2);
 outside_y = frame_y + (overhang * 2);
 outside_z = frame_z + overhang;
 
 picture_inset = overhang + wall_thickness;
 
+echo(picture_inset);
+
 difference() {
     cube([outside_x, outside_y, outside_z]);
-    
-    translate([overhang, overhang, 0]) {
+
+    translate([overhang, overhang, overhang]) {
         cube([frame_x, frame_y, frame_z]);
     }
     
-    translate([picture_inset, picture_inset, frame_z]) {
-        color([0, 0, 1])
-        cube([(picture_x - overhang), (picture_y - overhang), frame_z]);
+    translate([picture_inset + (overhang / 2), picture_inset + (overhang / 2), 0]) {
+        cube([picture_x-overhang, picture_y-overhang, 12]);
     }
 }
