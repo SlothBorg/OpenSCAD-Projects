@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Background -->
+  <rect width="120" height="120" fill="#ffffff"/>
+  
+  <!-- The Bridge Sigil -->
+  <g transform="translate(10, 10)">
+    <path d="M20,70 C40,30 60,30 80,70" stroke="#000000" stroke-width="2" fill="none"/>
+    <line x1="20" y1="70" x2="20" y2="85" stroke="#000000" stroke-width="2"/>
+    <line x1="80" y1="70" x2="80" y2="85" stroke="#000000" stroke-width="2"/>
+    <line x1="20" y1="40" x2="80" y2="40" stroke="#000000" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="60" y="110" font-family="serif" font-size="10" fill="#000000" text-anchor="middle">The Bridge</text>
+</svg>
