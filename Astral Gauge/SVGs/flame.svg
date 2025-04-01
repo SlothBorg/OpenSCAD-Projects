@@ -1,13 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
   <!-- Background -->
   <rect width="120" height="120" fill="#ffffff"/>
-  
-  <!-- The Flame Sigil -->
+
+  <!-- The Flame Sigil (Redesigned) -->
   <g transform="translate(10, 10)">
-    <path d="M50,20 Q30,40 40,60 Q20,80 50,90 Q80,80 60,60 Q70,40 50,20 Z" stroke="#000000" stroke-width="2" fill="none"/>
-    <line x1="50" y1="20" x2="50" y2="5" stroke="#000000" stroke-width="2"/>
+    <!-- Central flame shape -->
+    <path d="M50,15
+             C45,30 35,35 40,50
+             C30,60 35,75 50,80
+             C65,75 70,60 60,50
+             C65,35 55,30 50,15 Z"
+          stroke="#000000" stroke-width="2" fill="none"/>
+
+    <!-- Inner flame detail -->
+    <path d="M50,30
+             C48,40 45,45 50,60
+             C55,45 52,40 50,30 Z"
+          stroke="#000000" stroke-width="2" fill="none"/>
+
+    <!-- Base/source of flame -->
+    <line x1="40" y1="80" x2="60" y2="80" stroke="#000000" stroke-width="2"/>
+
+    <!-- Optional emanation lines for energy -->
+    <line x1="35" y1="40" x2="25" y2="35" stroke="#000000" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="65" y1="40" x2="75" y2="35" stroke="#000000" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="40" y1="25" x2="30" y2="15" stroke="#000000" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="60" y1="25" x2="70" y2="15" stroke="#000000" stroke-width="1.5" stroke-dasharray="2,2"/>
   </g>
-  
+
   <!-- Title -->
   <text x="60" y="110" font-family="serif" font-size="10" fill="#000000" text-anchor="middle">The Flame</text>
 </svg>
