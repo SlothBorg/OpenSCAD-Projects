@@ -1,6 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <!-- Background -->
-  <rect width="120" height="120" fill="#E9E9E2"/>
 
   <!-- The Flame Sigil (Redesigned) -->
   <g transform="translate(10, 10)">
@@ -28,6 +26,4 @@
     <line x1="60" y1="25" x2="70" y2="15" stroke="#16161D" stroke-width="1.5" stroke-dasharray="2,2"/>
   </g>
 
-  <!-- Title -->
-  <text x="60" y="110" font-family="serif" font-size="10" fill="#16161D" text-anchor="middle">The Flame</text>
 </svg>

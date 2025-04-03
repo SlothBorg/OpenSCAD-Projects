@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#E9E9E2"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="serif" font-size="24" fill="#16161D" text-anchor="middle">17 Arcane Sigils</text>
+  
   <!-- Grid of Sigils -->
   <!-- Row 1 -->
   <g transform="translate(100, 100)">
@@ -11,7 +17,7 @@
       <line x1="15" y1="50" x2="0" y2="50" stroke="#16161D" stroke-width="2"/>
       <line x1="85" y1="50" x2="100" y2="50" stroke="#16161D" stroke-width="2"/>
     </g>
-
+    
     <!-- Sigil 2: "The Gateway" - Opportunity and passage -->
     <g transform="translate(150, 0)">
       <rect x="20" y="20" width="60" height="60" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -21,7 +27,7 @@
       <line x1="20" y1="80" x2="50" y2="50" stroke="#16161D" stroke-width="2"/>
       <line x1="80" y1="80" x2="50" y2="50" stroke="#16161D" stroke-width="2"/>
     </g>
-
+    
     <!-- Sigil 3: "The Cauldron" - Transformation and wisdom -->
     <g transform="translate(300, 0)">
       <path d="M30,80 Q50,90 70,80 Q85,60 70,40 Q50,30 30,40 Q15,60 30,80 Z" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -29,7 +35,7 @@
       <line x1="40" y1="10" x2="60" y2="10" stroke="#16161D" stroke-width="2"/>
       <path d="M40,60 Q50,70 60,60" stroke="#16161D" stroke-width="2" fill="none"/>
     </g>
-
+    
     <!-- Sigil 4: "The Binding" - Unity and connection -->
     <g transform="translate(450, 0)">
       <circle cx="35" cy="50" r="25" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -37,14 +43,34 @@
       <line x1="35" y1="50" x2="65" y2="50" stroke="#16161D" stroke-width="2"/>
       <line x1="50" y1="25" x2="50" y2="75" stroke="#16161D" stroke-width="2"/>
     </g>
-
-    <!-- Sigil 5: "The Flame" - Passion and energy -->
+    
+    <!-- Sigil 5: "The Flame" (REDESIGNED) - Passion and energy -->
     <g transform="translate(600, 0)">
-      <path d="M50,20 Q30,40 40,60 Q20,80 50,90 Q80,80 60,60 Q70,40 50,20 Z" stroke="#16161D" stroke-width="2" fill="none"/>
-      <line x1="50" y1="20" x2="50" y2="5" stroke="#16161D" stroke-width="2"/>
+      <!-- Central flame shape -->
+      <path d="M50,15 
+               C45,30 35,35 40,50 
+               C30,60 35,75 50,80 
+               C65,75 70,60 60,50 
+               C65,35 55,30 50,15 Z" 
+            stroke="#16161D" stroke-width="2" fill="none"/>
+      
+      <!-- Inner flame detail -->
+      <path d="M50,30 
+               C48,40 45,45 50,60 
+               C55,45 52,40 50,30 Z" 
+            stroke="#16161D" stroke-width="2" fill="none"/>
+      
+      <!-- Base/source of flame -->
+      <line x1="40" y1="80" x2="60" y2="80" stroke="#16161D" stroke-width="2"/>
+      
+      <!-- Optional emanation lines for energy -->
+      <line x1="35" y1="40" x2="25" y2="35" stroke="#16161D" stroke-width="1.5" stroke-dasharray="2,2"/>
+      <line x1="65" y1="40" x2="75" y2="35" stroke="#16161D" stroke-width="1.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="25" x2="30" y2="15" stroke="#16161D" stroke-width="1.5" stroke-dasharray="2,2"/>
+      <line x1="60" y1="25" x2="70" y2="15" stroke="#16161D" stroke-width="1.5" stroke-dasharray="2,2"/>
     </g>
   </g>
-
+  
   <!-- Row 2 -->
   <g transform="translate(100, 225)">
     <!-- Sigil 6: "The Veil" - Mystery and hidden knowledge -->
@@ -54,14 +80,14 @@
       <line x1="40" y1="40" x2="60" y2="60" stroke="#16161D" stroke-width="2"/>
       <line x1="60" y1="40" x2="40" y2="60" stroke="#16161D" stroke-width="2"/>
     </g>
-
+    
     <!-- Sigil 7: "The Chalice" - Abundance and receiving -->
     <g transform="translate(150, 0)">
       <path d="M30,80 L50,40 L70,80 Z" stroke="#16161D" stroke-width="2" fill="none"/>
       <line x1="50" y1="40" x2="50" y2="20" stroke="#16161D" stroke-width="2"/>
       <line x1="40" y1="20" x2="60" y2="20" stroke="#16161D" stroke-width="2"/>
     </g>
-
+    
     <!-- Sigil 8: "The Web" - Connection and fate -->
     <g transform="translate(300, 0)">
       <circle cx="50" cy="50" r="40" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -70,23 +96,35 @@
       <line x1="20" y1="20" x2="80" y2="80" stroke="#16161D" stroke-width="2"/>
       <line x1="80" y1="20" x2="20" y2="80" stroke="#16161D" stroke-width="2"/>
     </g>
-
+    
     <!-- Sigil 9: "The Shield" - Protection and defense -->
     <g transform="translate(450, 0)">
       <path d="M50,10 L90,30 L70,80 L30,80 L10,30 Z" stroke="#16161D" stroke-width="2" fill="none"/>
       <circle cx="50" cy="45" r="15" stroke="#16161D" stroke-width="2" fill="none"/>
       <line x1="50" y1="60" x2="50" y2="75" stroke="#16161D" stroke-width="2"/>
     </g>
-
-    <!-- Sigil 10: "The Key" - Access and unlocking -->
+    
+    <!-- Sigil 10: "The Key" (ANGLED) - Access and unlocking -->
     <g transform="translate(600, 0)">
-      <circle cx="35" cy="35" r="15" stroke="#16161D" stroke-width="2" fill="none"/>
-      <line x1="45" y1="45" x2="75" y2="75" stroke="#16161D" stroke-width="2"/>
-      <line x1="60" y1="60" x2="80" y2="60" stroke="#16161D" stroke-width="2"/>
-      <line x1="70" y1="70" x2="70" y2="50" stroke="#16161D" stroke-width="2"/>
+      <!-- The Key Sigil (Angled) -->
+      <g transform="translate(30, 35) rotate(45) translate(-30, -35)">
+        <!-- Key head (bow) -->
+        <circle cx="30" cy="35" r="15" stroke="#16161D" stroke-width="2" fill="none"/>
+        
+        <!-- Inner detail in bow -->
+        <circle cx="30" cy="35" r="7" stroke="#16161D" stroke-width="1.5" fill="none"/>
+        
+        <!-- Key shaft (stem) -->
+        <line x1="45" y1="35" x2="75" y2="35" stroke="#16161D" stroke-width="2"/>
+        
+        <!-- Key teeth -->
+        <line x1="60" y1="35" x2="60" y2="50" stroke="#16161D" stroke-width="2"/>
+        <line x1="70" y1="35" x2="70" y2="45" stroke="#16161D" stroke-width="2"/>
+        <line x1="80" y1="35" x2="80" y2="50" stroke="#16161D" stroke-width="2"/>
+      </g>
     </g>
   </g>
-
+  
   <!-- Row 3 -->
   <g transform="translate(100, 350)">
     <!-- Sigil 11: "The Wheel" - Cycles and destiny -->
@@ -102,7 +140,7 @@
       <line x1="74" y1="26" x2="58" y2="42" stroke="#16161D" stroke-width="2"/>
       <line x1="74" y1="74" x2="58" y2="58" stroke="#16161D" stroke-width="2"/>
     </g>
-
+    
     <!-- Sigil 12: "The Bridge" - Transition and crossing -->
     <g transform="translate(150, 0)">
       <path d="M20,70 C40,30 60,30 80,70" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -110,13 +148,13 @@
       <line x1="80" y1="70" x2="80" y2="85" stroke="#16161D" stroke-width="2"/>
       <line x1="20" y1="40" x2="80" y2="40" stroke="#16161D" stroke-width="2" stroke-dasharray="5,5"/>
     </g>
-
+    
     <!-- Sigil 13: "The Star" - Guidance and hope -->
     <g transform="translate(300, 0)">
       <path d="M50,20 L60,45 L85,50 L60,55 L50,80 L40,55 L15,50 L40,45 Z" stroke="#16161D" stroke-width="2" fill="none"/>
       <circle cx="50" cy="50" r="5" stroke="#16161D" stroke-width="2" fill="none"/>
     </g>
-
+    
     <!-- Sigil 14: "The Crossroads" - Choice and decision -->
     <g transform="translate(450, 0)">
       <line x1="20" y1="20" x2="80" y2="80" stroke="#16161D" stroke-width="2"/>
@@ -124,7 +162,7 @@
       <circle cx="50" cy="50" r="10" stroke="#16161D" stroke-width="2" fill="none"/>
       <circle cx="50" cy="50" r="30" stroke="#16161D" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
     </g>
-
+    
     <!-- Sigil 15: "The Maze" - Journey and challenge -->
     <g transform="translate(600, 0)">
       <rect x="20" y="20" width="60" height="60" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -132,7 +170,7 @@
       <circle cx="50" cy="50" r="5" stroke="#16161D" stroke-width="2" fill="none"/>
     </g>
   </g>
-
+  
   <!-- Row 4 (partial - only 2 more sigils) -->
   <g transform="translate(175, 475)">
     <!-- Sigil 16: "The Spiral" - Growth and evolution -->
@@ -140,7 +178,7 @@
       <path d="M50,20 C70,20 80,30 80,50 C80,70 70,80 50,80 C30,80 20,70 20,50 C20,40 25,35 35,35 C45,35 50,40 50,50 C50,60 45,65 35,65" stroke="#16161D" stroke-width="2" fill="none"/>
       <circle cx="35" cy="65" r="3" stroke="#16161D" stroke-width="2" fill="#16161D"/>
     </g>
-
+    
     <!-- Sigil 17: "The Mirror" - Reflection and truth -->
     <g transform="translate(150, 0)">
       <rect x="25" y="20" width="50" height="60" stroke="#16161D" stroke-width="2" fill="none"/>
@@ -150,7 +188,7 @@
       <line x1="35" y1="60" x2="65" y2="60" stroke="#16161D" stroke-width="2"/>
     </g>
   </g>
-
+  
   <!-- Sigil Names -->
   <g font-family="serif" font-size="10" fill="#16161D" text-anchor="middle">
     <!-- Row 1 -->
@@ -159,21 +197,21 @@
     <text x="450" y="120">The Cauldron</text>
     <text x="600" y="120">The Binding</text>
     <text x="750" y="120">The Flame</text>
-
+    
     <!-- Row 2 -->
     <text x="150" y="245">The Veil</text>
     <text x="300" y="245">The Chalice</text>
     <text x="450" y="245">The Web</text>
     <text x="600" y="245">The Shield</text>
     <text x="750" y="245">The Key</text>
-
+    
     <!-- Row 3 -->
     <text x="150" y="370">The Wheel</text>
     <text x="300" y="370">The Bridge</text>
     <text x="450" y="370">The Star</text>
     <text x="600" y="370">The Crossroads</text>
     <text x="750" y="370">The Maze</text>
-
+    
     <!-- Row 4 -->
     <text x="225" y="495">The Spiral</text>
     <text x="375" y="495">The Mirror</text>
