@@ -11,6 +11,18 @@ side_vertical_angle = atan((height / (bottom_r - top_r)));
 inset_r = top_r * .95;
 inset_h = 1;
 
+/**
+OPTIONS ARE:
+    Is Occult
+    Is Script
+    Hayghin Daedric - no capitilization
+**/
+font = "Is Occult";
+
+letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"];
+cap_letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"];
+
+
 module tapered_shell(h, r1, r2, sides) {
     cylinder(h = h, r1 = r1, r2 = r2, $fn = sides);
 }
@@ -21,28 +33,20 @@ module top_inset(h, r) {
     }
 }
 
-module svg_symbol(i) {
-    filename = str("symbols/", i, ".svg");
-    
-    echo(str("Loading symbol ", i, "..."));
-    
-    symbol_depth = 0.6;
-    
-    linear_extrude(height = symbol_depth) {
-        import(filename);
-    }
-}
-
 module symbol_on_facet(i) {
-    angle = i * side_angle;
-    scale = .25;
-    offset = 0.1;
+    angle = (i - 1) * side_angle;
+    midpoint_radius = (bottom_r + top_r) / 2;
+    symbol_height_offset = height / 2;
+    symbol_depth = 5;
+    scale_factor = 0.75;
 
-    rotate(angle) {
-        translate([(bottom_r - offset), 0, (height / 2)]) { 
-            rotate([0, 90, 0]) {
-                scale([scale, scale, 1]) {
-                    svg_symbol(i);
+    rotate([0, 0, (angle + (side_angle / 2))]) {
+        translate([midpoint_radius, 0, symbol_height_offset]) {
+            rotate([90, 0, 90]) {
+                scale([scale_factor, scale_factor, scale_factor]) {
+                    linear_extrude(height = symbol_depth, center=true) {
+                        text(letters[i - 1], font=font, halign="center", valign="center");
+                    }
                 }
             }
         }
@@ -50,24 +54,11 @@ module symbol_on_facet(i) {
 }
 
 
-//difference() {
+difference() {
     tapered_shell(height, bottom_r, top_r, sides);
     top_inset(inset_h, inset_r);
     
     for (i = [1 : sides]) {
         symbol_on_facet(i);
     }
-//}
-
-
-
-
-/**
-for (i = [0 : sides]) {        
-    rotate(i * (360 / sides)) {
-            translate([0, bottom_r, 0]) {
-                cylinder(h = height, r = 3, $fn = 16);
-        }
-    }
 }
-**/

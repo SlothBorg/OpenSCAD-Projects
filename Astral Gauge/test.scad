@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // === Configuration ===
 inch = 25.4;
 sides = 16;
@@ -41,3 +42,37 @@ module symbol_on_facet(i) {
     for (i = [1 : sides])
         symbol_on_facet(i);
 //}
+=======
+/**
+filename = str("symbols/new/6.svg");
+symbol_depth = 3;
+
+linear_extrude(height = symbol_depth) {
+    import(filename);
+}
+**/
+
+symbol_depth = 0.6;
+
+rotate([75, 0, 0]) {
+//    text("This is a test", font="Is Occult");
+    linear_extrude(height = symbol_depth) {
+        text("A", font="Hayghin Daedric");
+    }
+}
+translate([10, 0, 0]) {
+   rotate([75, 0, 0]) {
+        linear_extrude(height = symbol_depth) {
+            text("a", font="Hayghin Daedric");
+        }
+    }
+}
+/**
+translate([0, 25, 0]) {
+    text("This is a test", font="Is Script");
+}
+translate([0, 50, 0]) {
+    text("This is a test", font="Hayghin Daedric");
+}
+ **/
+>>>>>>> b06d513 (wip)
