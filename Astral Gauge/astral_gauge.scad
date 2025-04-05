@@ -34,10 +34,13 @@ module top_inset(h, r) {
 }
 
 module symbol_on_facet(i) {
+    echo(i);
+    echo(cap_letters[i - 1]);
+    
     angle = (i - 1) * side_angle;
     midpoint_radius = (bottom_r + top_r) / 2;
     symbol_height_offset = height / 2;
-    symbol_depth = 5;
+    symbol_depth = 6;
     scale_factor = 0.75;
 
     rotate([0, 0, (angle + (side_angle / 2))]) {
@@ -45,7 +48,7 @@ module symbol_on_facet(i) {
             rotate([90, 0, 90]) {
                 scale([scale_factor, scale_factor, scale_factor]) {
                     linear_extrude(height = symbol_depth, center=true) {
-                        text(letters[i - 1], font=font, halign="center", valign="center");
+                        text(cap_letters[i - 1], font=font, halign="center", valign="center");
                     }
                 }
             }
