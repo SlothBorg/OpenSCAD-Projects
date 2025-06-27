@@ -23,14 +23,15 @@ MS_mid_z = (MS_z / 2);
 RING_outer_r = MS_mid_y;
 RING_inner_r = MS_mid_y * .8;
 
-PEG_outer_r = RING_inner_r * .75;
+PEG_outer_r = RING_inner_r * .93;
 PEG_inner_r = PEG_outer_r * .8;
 
-CLICK_base_angle = -225;
+CLICK_base_angle = -45;
 CLICK_num = 6;
-CLICK_r = .75;
+CLICK_r = 1;
 
 // Indicator for which click the tool is on
+INDICATOR_base_angle = 135;
 INDICATOR_h = (MS_z * 1.1);
 INDICATOR_r = (MS_y / 8);
 INDICATOR_sides = 3;

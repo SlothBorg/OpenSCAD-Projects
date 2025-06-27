@@ -12,7 +12,7 @@ module cutouts() {
 
 module click_indicators() {
     for (i = [0 : INDICATOR_num - 1]) {
-        angle = CLICK_base_angle + (i * 90 / (INDICATOR_num - 1));
+        angle = INDICATOR_base_angle + (i * 90 / (INDICATOR_num - 1));
         
         rotate([0, 0, angle]) {
             translate([RING_inner_r, 0, 0]) {
@@ -28,12 +28,13 @@ module segment() {
         cube([MS_x, MS_y, MS_z]);
         cutouts();
     }
+    /**
     translate([(MS_mid_y / 2), MS_mid_y, 0]) {
         rotate(180) {
             click_indicators();
         }
     }
-
+    **/
 }
 
 segment();
