@@ -21,7 +21,12 @@ hole_radius = 5;
 hole_margin = 15;
 
 colorpart(1) {
-    cube(card_size);
+    difference() {
+        cube(card_size);
+        translate([card_size[0] - hole_margin, card_size[1] - hole_margin, -1]) {
+            cylinder(h=card_size[2] + 2, r=hole_radius, $fn=30);
+        }
+    }
 }
 
 colorpart(0) {
