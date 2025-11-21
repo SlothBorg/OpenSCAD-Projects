@@ -21,13 +21,18 @@ hole_radius = 5;
 hole_margin = 15;
 
 colorpart(1) {
-    cube(card_size);
+    difference() {
+        cube(card_size);
+        translate([card_size[0] - hole_margin,  hole_margin, -1]) {
+            cylinder(h=card_size[2] + 2, r=hole_radius, $fn=30);
+        }
+    }
 }
 
 colorpart(0) {
     translate([5, ((4 * inch) - 20), 3]) {
         linear_extrude(height=0.4) {
-           text("Drying",size=12);
+           text("Threaded Insert",size=12);
         }
     }
 }
@@ -36,10 +41,9 @@ line_spacing = 16;
 start_y = (4 * inch) - 38;
 
 data_lines = [
-    ["PLA ", "122-131", "4-6h"],
-    ["PETG", "140-149", "4-6h"],
-    ["TPU ", "122-131", "6-8h"],
-    ["ABS ", "140-149", "4-6h"]
+    ["PLA ", "210c - 240c"],
+    ["PETG", "235c - 250c"],
+    ["ABS ", "260c - 290c"]
 ];
 
 colorpart(0) {
@@ -54,12 +58,6 @@ colorpart(0) {
         translate([47, start_y - (i * line_spacing), 3]) {
             linear_extrude(height=0.4) {
                text(data_lines[i][1], size=8);
-            }
-        }
-        // Time
-        translate([100, start_y - (i * line_spacing), 3]) {
-            linear_extrude(height=0.4) {
-               text(data_lines[i][2], size=8);
             }
         }
     }

@@ -1,3 +1,6 @@
 *.stl
 *.pwmo
+*.rar
+*.zip
+*.png
 **/fonts/*

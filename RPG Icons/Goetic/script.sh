@@ -1,0 +1,227 @@
+#!/bin/bash
+
+# Create directory for downloads
+mkdir -p demon_seals
+
+# Download all demon seal images
+
+wget -O demon_seals/01-Bael_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/a/ae/01-Bael_seal.png"
+
+wget -O demon_seals/02-Agares_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/6/6d/02-Agares_seal.png"
+
+wget -O demon_seals/03-Vassago_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/0/08/03-Vassago_seal.png"
+
+wget -O demon_seals/04-Samigina_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c8/04-Samigina_seal.png"
+
+wget -O demon_seals/05-Marbas_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/e/ef/05-Marbas_seal.png"
+
+wget -O demon_seals/06-Valefor_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/9/90/06-Valefor_seal.png"
+
+wget -O demon_seals/07-Amon_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c0/07-Amon_seal.png"
+
+wget -O demon_seals/08-Barbatos_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/d/da/08-Barbatos_seal.png"
+
+wget -O demon_seals/09-Paimon_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/fb/09-Paimon_seal01.png"
+
+wget -O demon_seals/10-Buer_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/d/d2/10-Buer_seal.png"
+
+wget -O demon_seals/11-Gusion_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/5/5f/11-Gusion_seal.png"
+
+wget -O demon_seals/12-Sitri_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/ff/12-Sitri_seal.png"
+
+wget -O demon_seals/13-Beleth_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/2/23/13-Beleth_seal01.png"
+
+wget -O demon_seals/14-Leraie_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/fc/14-Leraie_seal.png"
+
+wget -O demon_seals/15-Eligos_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/5/5c/15-Eligos_seal.png"
+
+wget -O demon_seals/16-Zepar_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/8/88/16-Zepar_seal.png"
+
+wget -O demon_seals/17-Botis_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/5/5c/17-Botis_seal.png"
+
+wget -O demon_seals/18-Bathin_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/1/13/18-Bathin_seal01.png"
+
+wget -O demon_seals/19-Sallos_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/f6/19-Sallos_seal.png"
+
+wget -O demon_seals/20-Purson_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/1/1d/20-Purson_seal.png"
+
+wget -O demon_seals/21-Marax_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/0/07/21-Marax_seal.png"
+
+wget -O demon_seals/22-Ipos_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/b/bd/22-Ipos_seal.png"
+
+wget -O demon_seals/23-Aim_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/4/48/23-Aim_seal.png"
+
+wget -O demon_seals/24-Naberius_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/f0/24-Naberius_seal.png"
+
+wget -O demon_seals/25-Glasya-Labolas_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/9/97/25-Glasya-Labolas_seal.png"
+
+wget -O demon_seals/26-Bune_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c6/26-Bune_seal01.png"
+
+wget -O demon_seals/27-Ronove_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/4/4e/27-Ronove_seal.png"
+
+wget -O demon_seals/28-Berith_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c3/28-Berith_seal.png"
+
+wget -O demon_seals/30-Forneus_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/6/6d/30-Forneus_seal.png"
+
+wget -O demon_seals/31-Foras_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/d/d7/31-Foras_seal.png"
+
+wget -O demon_seals/32-Asmoday_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/7/7b/32-Asmoday_seal.png"
+
+wget -O demon_seals/33-Gaap_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/9/93/33-Gaap_seal.png"
+
+wget -O demon_seals/34-Furfur_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/cd/34-Furfur_seal.png"
+
+wget -O demon_seals/35-Marchosias_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/fd/35-Marchosias_seal.png"
+
+wget -O demon_seals/36-Stolas_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c7/36-Stolas_seal.png"
+
+wget -O demon_seals/37-Phenex_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c0/37-Phenex_seal.png"
+
+wget -O demon_seals/38-Halphus_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/1/10/38-Halphus_seal.png"
+
+wget -O demon_seals/39-Malphas.png \
+  "https://upload.wikimedia.org/wikipedia/commons/4/4d/39-Malphas.png"
+
+wget -O demon_seals/40-Raum_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/a/a8/40-Raum_seal.png"
+
+wget -O demon_seals/41-Focalor_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/f4/41-Focalor_seal.png"
+
+wget -O demon_seals/42-Vepar_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/9/92/42-Vepar_seal01.png"
+
+wget -O demon_seals/43-Sabnock_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/8/81/43-Sabnock_seal.png"
+
+wget -O demon_seals/44-Shax_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/c/c7/44-Shax_seal.png"
+
+wget -O demon_seals/45-Vine_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/4/4d/45-Vine_seal.png"
+
+wget -O demon_seals/46-Bifrons_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/3/35/46-Bifrons_seal.png"
+
+wget -O demon_seals/47-Vual_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/5/59/47-Vual_seal01.png"
+
+wget -O demon_seals/48-Haagenti_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/0/0f/48-Haagenti_seal.png"
+
+wget -O demon_seals/49-Crocell_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/e/ef/49-Crocell_seal.png"
+
+wget -O demon_seals/50-Furcas_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/e/e4/50-Furcas_seal.png"
+
+wget -O demon_seals/51-Balam_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/ff/51-Balam_seal.png"
+
+wget -O demon_seals/52-Alloces_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/a/a3/52-Alloces_seal.png"
+
+wget -O demon_seals/53-Camio_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/2/20/53-Camio_seal.png"
+
+wget -O demon_seals/54-Murmur_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/d/d4/54-Murmur_seal.png"
+
+wget -O demon_seals/55-Orobas_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/6/62/55-Orobas_seal.png"
+
+wget -O demon_seals/56-Gremory_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/f/ff/56-Gremory_seal.png"
+
+wget -O demon_seals/57-Ose_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/7/75/57-Ose_seal.png"
+
+wget -O demon_seals/58-Amy_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/8/8c/58-Amy_seal.png"
+
+wget -O demon_seals/59-Orias_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/2/28/59-Orias_seal.png"
+
+wget -O demon_seals/60-Vapula_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/1/10/60-Vapula_seal.png"
+
+wget -O demon_seals/61-Zagan_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/7/74/61-Zagan_seal.png"
+
+wget -O demon_seals/62-Valac_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/0/0e/62-Valac_seal.png"
+
+wget -O demon_seals/63-Andras_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/0/06/63-Andras_seal.png"
+
+wget -O demon_seals/64-Haures_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/7/7d/64-Haures_seal.png"
+
+wget -O demon_seals/65-Andrealphus_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/b/b8/65-Andrealphus_seal.png"
+
+wget -O demon_seals/66-Cimeies_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/2/24/66-Cimeies_seal.png"
+
+wget -O demon_seals/67-Amdusias_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/5/58/67-Amdusias_seal.png"
+
+wget -O demon_seals/68-Belial_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/9/9e/68-Belial_seal.png"
+
+wget -O demon_seals/Decarabia_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/1/11/Decarabia_seal.png"
+
+wget -O demon_seals/70-Seere_seal01.png \
+  "https://upload.wikimedia.org/wikipedia/commons/4/42/70-Seere_seal01.png"
+
+wget -O demon_seals/71-Dantalion_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/9/98/71-Dantalion_seal.png"
+
+wget -O demon_seals/72-Andromalius_seal.png \
+  "https://upload.wikimedia.org/wikipedia/commons/6/6e/72-Andromalius_seal.png"
+
+wget -O demon_seals/Astaroth_Seal.svg \
+  "https://upload.wikimedia.org/wikipedia/commons/7/72/Astaroth_Seal.svg"
+
+wget -O demon_seals/Grimorium_Verum_Full_Sigil_of_Lucifer.svg \
+  "https://upload.wikimedia.org/wikipedia/commons/6/6e/Grimorium_Verum_Full_Sigil_of_Lucifer.svg"
+
+echo "Downloaded all 74 seal images to demon_seals/"
