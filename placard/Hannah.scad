@@ -59,7 +59,7 @@ module arc_text(text_string, radius, size) {
         angle = start_angle - (i * angle_step);
         rotate([0, 0, angle]) {
             translate([0, radius, 0]) {
-                text(text_string[i], size=size, , font="Liberation Sans:style=Bold");
+                text(text_string[i], size=size, font="Nimbus Roman:style=Bold");
             }
         }
     }
