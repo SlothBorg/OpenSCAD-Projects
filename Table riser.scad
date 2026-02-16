@@ -2,16 +2,16 @@ inch = 25.4;
 ides = 120;
 
 leg = [
-    .3 * inch,  // height
-    .75 * inch, // bottom R
-    .85 * inch, // top R
+    .65 * inch, // height
+    (42 / 2),      // bottom R
+    (42 / 2),      // top R
 ];
 
 riser_h = (1.75 * inch);
 riser = [
    riser_h + leg[0],   // height
-   2 * inch,           // bottom R
-   1.75 * inch,        // top R
+   1.1 * inch,           // bottom R
+   1 * inch,        // top R
 ];
 
 num_holes = 8;
